@@ -24,3 +24,4 @@
 - Среда разработки: Visual Studio Code
 
 Видео геймплея - https://disk.yandex.ru/i/lSwD-ANXPV1CJg
+
