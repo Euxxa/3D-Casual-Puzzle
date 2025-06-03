@@ -1,0 +1,686 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1748897253504542, "dur":82, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748897253504671, "dur":34060, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748897253538742, "dur":155, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748897253538959, "dur":294, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748897253539425, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1748897253539544, "dur":266, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1748897253540155, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/level2" }}
+,{ "pid":12345, "tid":0, "ts":1748897253540424, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1748897253540808, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":0, "ts":1748897253541001, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":0, "ts":1748897253541353, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"UnityLinker D:/unity/projects/3D Casual Puzzle Game/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":0, "ts":1748897253541666, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748897253541929, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748897253542352, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748897253542546, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748897253544617, "dur":84, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748897253545752, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748897253539320, "dur":7432, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748897253546753, "dur":9298977, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748897262845989, "dur":2612, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1748897253540166, "dur":6597, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748897253547144, "dur":1057, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/unity/installs/6000.0.48f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1748897253548202, "dur":5980, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/unity/installs/6000.0.48f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1748897253554182, "dur":81, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/unity/installs/6000.0.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1748897253554263, "dur":1083, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/unity/installs/6000.0.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":1, "ts":1748897253555395, "dur":97, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"D:/unity/installs/6000.0.48f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1748897253555492, "dur":105, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":1, "ts":1748897253546769, "dur":8863, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748897253555640, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/7825075032340525778.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1748897253556984, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897253557242, "dur":409, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897253557659, "dur":398, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897253558065, "dur":3742, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897253561820, "dur":1727, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897253563565, "dur":1395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897253564970, "dur":13420, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897253592801, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\artifacts\\UnityLinkerInputs\\MethodsToPreserve.xml" }}
+,{ "pid":12345, "tid":1, "ts":1748897253592951, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1748897253593042, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\artifacts\\UnityLinkerInputs\\SerializedTypes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1748897253593143, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\InputSystem\\StandaloneWindows64Link.xml" }}
+,{ "pid":12345, "tid":1, "ts":1748897253593257, "dur":1147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1748897253555777, "dur":79939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/unity/projects/3D Casual Puzzle Game/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1748897253637489, "dur":684, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748897253638179, "dur":124, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748897253713559, "dur":638662, "ph":"X", "name": "UnityLinker",  "args": { "detail":"D:/unity/projects/3D Casual Puzzle Game/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1748897254356791, "dur":1164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897254357990, "dur":402037, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897254760067, "dur":484940, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897255245047, "dur":72381, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897255317436, "dur":74812, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897255392282, "dur":209692, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897255602024, "dur":108544, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897255710604, "dur":299403, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897256010012, "dur":52662, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897256062842, "dur":64765, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897256127645, "dur":212601, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897256340290, "dur":190422, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897256530752, "dur":162884, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897256693677, "dur":323260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897257016973, "dur":166790, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897257183816, "dur":1410, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897257185259, "dur":146594, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897257331889, "dur":44011, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897257375905, "dur":156041, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897257532108, "dur":255535, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897257787689, "dur":1277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897257789005, "dur":218132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897258007151, "dur":29043, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897258036208, "dur":15234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897258051446, "dur":96977, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897258148459, "dur":84070, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897258232543, "dur":20256, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897258252900, "dur":82964, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897254356763, "dur":3979190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1748897258338556, "dur":4467101, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1748897262806014, "dur":37508, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897262805996, "dur":37529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748897262844041, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897253540244, "dur":6527, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253546784, "dur":1215, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253548000, "dur":1043, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253549044, "dur":891, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253549936, "dur":1151, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253551087, "dur":860, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253551948, "dur":192, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253552140, "dur":208, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253552349, "dur":195, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253552545, "dur":210, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253552755, "dur":186, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253552941, "dur":396, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253553338, "dur":204, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253553543, "dur":2124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253555679, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253556867, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1748897253558907, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1748897253560122, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1748897253561505, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1748897253563206, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1748897253564477, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1748897253567520, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253566302, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1748897253567738, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1748897253569342, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1748897253569835, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1748897253571494, "dur":1501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1748897253573006, "dur":157, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253573530, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1748897253576942, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253575590, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1748897253577371, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897253583617, "dur":240, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253579363, "dur":4514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game.exe" }}
+,{ "pid":12345, "tid":2, "ts":1748897253583937, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1748897253584032, "dur":109, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253584635, "dur":12031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1748897253596733, "dur":47496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897253645175, "dur":181, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253644320, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1748897253646343, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253645492, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1748897253646561, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1748897253650335, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253648067, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1748897253650592, "dur":56, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1748897253650655, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253650716, "dur":3748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1748897253654501, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1748897253656036, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1748897253657106, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1748897253659162, "dur":106, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253658207, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1748897253662998, "dur":4252, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897253659360, "dur":7949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1748897253667334, "dur":689432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897254356798, "dur":83711, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254356767, "dur":83744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254440522, "dur":176, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897254441865, "dur":358, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897254441012, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254442269, "dur":116290, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254442243, "dur":116318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254558572, "dur":158, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897254559982, "dur":348, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897254558735, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254560375, "dur":293533, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254560350, "dur":293560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254853920, "dur":158, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897254855679, "dur":354, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897254854082, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254856077, "dur":76200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254856052, "dur":76227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254932308, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254933416, "dur":222971, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897254933398, "dur":222997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255156425, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255157645, "dur":103221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255157626, "dur":103242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255260898, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255262236, "dur":46321, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255262218, "dur":46341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255308571, "dur":76, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897255308658, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255310188, "dur":52206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255310166, "dur":52230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255362457, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255363620, "dur":1980, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255363594, "dur":2008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255365631, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255366831, "dur":40382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255366810, "dur":40406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255407227, "dur":156, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897255408300, "dur":357, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897255407388, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255408703, "dur":46400, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255408676, "dur":46429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255455115, "dur":162, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897255456396, "dur":110, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897255455282, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255456572, "dur":141918, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255456541, "dur":141957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255598529, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255599937, "dur":243677, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255599896, "dur":243720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255843644, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255844782, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255846213, "dur":53977, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255846192, "dur":54000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255901431, "dur":131, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897255900223, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255901624, "dur":108656, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897255901621, "dur":108661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256010311, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256013046, "dur":37776, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256013015, "dur":37809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256050835, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897256050917, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256052205, "dur":106229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256052187, "dur":106249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256158447, "dur":139, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897256158597, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256159775, "dur":45730, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256159715, "dur":45792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256205537, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256206578, "dur":61805, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256206560, "dur":61825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256268414, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256269463, "dur":41986, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256269445, "dur":42006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256311482, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256312573, "dur":154986, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256312543, "dur":155018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256467593, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256469244, "dur":84686, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256469227, "dur":84705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256553972, "dur":136, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897256555383, "dur":136, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897256554114, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256555592, "dur":317127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256555567, "dur":317154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256872753, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256874268, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256875469, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256876499, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256877586, "dur":51707, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256877566, "dur":51729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256929348, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256931080, "dur":73239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897256931042, "dur":73279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257004353, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257006150, "dur":48959, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257006129, "dur":48981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257055149, "dur":170, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257056302, "dur":403, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257055324, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257056753, "dur":142485, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257056725, "dur":142515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257199269, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257200925, "dur":64992, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257200905, "dur":65014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257265931, "dur":129, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257267051, "dur":125, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257266066, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257267251, "dur":236573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257267223, "dur":236603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257503878, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257505452, "dur":42285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257505430, "dur":42309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257547749, "dur":178, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257548859, "dur":351, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257547932, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257549240, "dur":93, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257550844, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257549337, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257551806, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257550986, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257551964, "dur":83135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257551942, "dur":83159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257636227, "dur":115, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257635132, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257636426, "dur":41624, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257636404, "dur":41648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257678092, "dur":120, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257678218, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257679597, "dur":52596, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257679549, "dur":52646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257732206, "dur":121, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257733349, "dur":118, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257732331, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257733603, "dur":4192, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257733570, "dur":4231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257737830, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257739021, "dur":115100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257738954, "dur":115169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257854134, "dur":131, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257854269, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257856669, "dur":135, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897257855731, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257856877, "dur":1208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257856841, "dur":1246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257858119, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257859363, "dur":1166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257859310, "dur":1221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257860570, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257861535, "dur":60889, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257861518, "dur":60908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257922455, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257923468, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257924366, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257925293, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257926585, "dur":124856, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897257926564, "dur":124879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897258052800, "dur":88, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897258051472, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897258052970, "dur":73116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897258052944, "dur":73144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897258126141, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897258127375, "dur":125420, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897258127354, "dur":125443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897258252807, "dur":128, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897258254242, "dur":127, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748897258252940, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748897258254452, "dur":4591270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253540939, "dur":5849, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253546793, "dur":1357, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253548151, "dur":997, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253549148, "dur":1212, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253550361, "dur":1393, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253551754, "dur":191, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253551945, "dur":188, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253552134, "dur":219, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253552353, "dur":208, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253552561, "dur":199, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253552760, "dur":201, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253552961, "dur":396, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253553358, "dur":169, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253553527, "dur":2141, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253555669, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1748897253560754, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253556135, "dur":4710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1748897253560978, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1748897253562274, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1748897253564011, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253562748, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1748897253565504, "dur":97, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253564229, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1748897253565732, "dur":57, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253566164, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1748897253568244, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253569808, "dur":102, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253568307, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1748897253570358, "dur":4597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1748897253575011, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1748897253576374, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253575115, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1748897253578058, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253576857, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1748897253586512, "dur":133, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253578254, "dur":8425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897253586792, "dur":4056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1748897253590871, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897253603033, "dur":334, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253591546, "dur":11910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897253603505, "dur":67, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253603576, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1748897253606256, "dur":150, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253605116, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1748897253608531, "dur":150, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253606507, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1748897253608790, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253610788, "dur":132, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253608853, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1748897253611011, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1748897253624256, "dur":129, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253612110, "dur":12332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1748897253624503, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253625900, "dur":506, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253624566, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1748897253626494, "dur":27448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1748897253656051, "dur":156, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253654036, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1748897253656318, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1748897253657552, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1748897253663361, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253658556, "dur":4875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1748897253664440, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897253663468, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1748897253664582, "dur":692185, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897254356801, "dur":119299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897254356768, "dur":119334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897254476241, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897254477592, "dur":308679, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897254477552, "dur":308722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897254786304, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897254787963, "dur":208641, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897254787910, "dur":208696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897254996618, "dur":208, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897254998178, "dur":431, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897254996831, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897254998662, "dur":121637, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897254998631, "dur":121670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255120312, "dur":118, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897255120435, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255121772, "dur":45932, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255121722, "dur":45990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255167723, "dur":128, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897255168992, "dur":134, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897255167857, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255169203, "dur":223061, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255169176, "dur":223089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255393274, "dur":121, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897255392293, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255393474, "dur":328218, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255393442, "dur":328252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255721738, "dur":194, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897255723362, "dur":395, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897255721937, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255723788, "dur":96, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897255726163, "dur":383, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897255723888, "dur":2674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255726597, "dur":336078, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897255726565, "dur":336111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256065784, "dur":134, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897256062706, "dur":3242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256066042, "dur":69865, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256066015, "dur":69895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256135921, "dur":124, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897256136050, "dur":1344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256137420, "dur":51284, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256137398, "dur":51308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256188717, "dur":127, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897256188848, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256189940, "dur":52160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256189909, "dur":52193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256242135, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256243588, "dur":49078, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256243568, "dur":49101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256292680, "dur":61, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897256293723, "dur":120, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897256292746, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256294025, "dur":88577, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256293932, "dur":88672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256382615, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897256383709, "dur":122, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897256382678, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256383922, "dur":186499, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256383882, "dur":186541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256570452, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256571539, "dur":84055, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256571521, "dur":84075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256655626, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256657034, "dur":86516, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256657011, "dur":86540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256743596, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256744726, "dur":104481, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256744689, "dur":104520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256850590, "dur":131, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897256849238, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256850782, "dur":166155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897256850778, "dur":166161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257018426, "dur":153, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897257016968, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257018676, "dur":134545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257018634, "dur":134589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257153234, "dur":127, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897257153366, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257154499, "dur":101318, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257154471, "dur":101348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257255851, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257257773, "dur":107329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257257753, "dur":107351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257366366, "dur":119, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897257365134, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257366574, "dur":165369, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257366520, "dur":165425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257531973, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257533724, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257535169, "dur":81712, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257535122, "dur":81761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257616894, "dur":164, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897257617992, "dur":347, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897257617062, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257618381, "dur":79883, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257618358, "dur":79907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257698276, "dur":177, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897257699395, "dur":2231, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897257698457, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257701793, "dur":92268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257701670, "dur":92394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257794095, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257795231, "dur":120322, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257795208, "dur":120349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257915607, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257917018, "dur":119175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897257916977, "dur":119218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258036207, "dur":121, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897258037727, "dur":142, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897258036335, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258037987, "dur":42677, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258037963, "dur":42703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258080715, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258081980, "dur":52095, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258081962, "dur":52116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258134134, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258135261, "dur":65605, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258135242, "dur":65632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258202382, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748897258200899, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258202620, "dur":40332, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258202583, "dur":40371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258243011, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258244124, "dur":91729, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258244098, "dur":91757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258335884, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748897258337053, "dur":4508559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253540982, "dur":5818, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253546800, "dur":1479, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253548280, "dur":920, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253549200, "dur":972, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253550172, "dur":1335, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253551508, "dur":323, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253551831, "dur":180, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253552011, "dur":205, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253552217, "dur":185, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253552402, "dur":222, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253552624, "dur":199, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253552823, "dur":215, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253553038, "dur":365, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253553403, "dur":2234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253555641, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":4, "ts":1748897253556608, "dur":496, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":4, "ts":1748897253557114, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1748897253557254, "dur":1155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1748897253558412, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1748897253558737, "dur":487, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253559227, "dur":1413, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253560650, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253560762, "dur":752, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253561533, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253561658, "dur":332, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Rendering.LightTransport.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253561998, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253562122, "dur":792, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253562923, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253563013, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253563089, "dur":332, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253563426, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253563522, "dur":295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253563821, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253563902, "dur":905, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253564811, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253564917, "dur":450, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253565376, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253565570, "dur":644, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253566218, "dur":403, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253566633, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253566747, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity\\projects\\3D Casual Puzzle Game\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897253568070, "dur":501, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf798c99e-inputdata.json" }}
+,{ "pid":12345, "tid":4, "ts":1748897253557108, "dur":11597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1748897253569555, "dur":245, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253569804, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897253570628, "dur":305755, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1748897253880439, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1748897253880425, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1748897253880605, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1748897253881619, "dur":475145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897254356798, "dur":119705, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254356765, "dur":119739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254476524, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254477573, "dur":258499, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254477557, "dur":258517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254736085, "dur":63, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897254738546, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897254736153, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254738743, "dur":164116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254738682, "dur":164179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254902872, "dur":130, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897254903955, "dur":121, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897254903007, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254904191, "dur":57827, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254904165, "dur":57855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254962123, "dur":645, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897254964079, "dur":136, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897254962773, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254964293, "dur":56140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897254964268, "dur":56167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255020447, "dur":173, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897255021639, "dur":365, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897255020625, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255022050, "dur":55455, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255022025, "dur":55483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255077520, "dur":84, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897255078806, "dur":144, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897255077629, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255079046, "dur":71923, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255079002, "dur":71969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255151130, "dur":70, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897255152266, "dur":359, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897255151225, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255152673, "dur":168205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255152645, "dur":168235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255320909, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255322075, "dur":44203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255322051, "dur":44229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255366307, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255367254, "dur":392778, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255367211, "dur":392824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255760063, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255762942, "dur":165767, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255762923, "dur":165788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255930458, "dur":164, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897255928744, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255930741, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255932051, "dur":3439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255935523, "dur":132685, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897255935494, "dur":132715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256068229, "dur":178, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897256069442, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897256068416, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256069876, "dur":58276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256069842, "dur":58312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256129308, "dur":149, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897256128184, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256129596, "dur":238237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256129509, "dur":238326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256367865, "dur":127, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897256367997, "dur":2221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256370275, "dur":40173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256370222, "dur":40228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256410478, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256411430, "dur":48728, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256411415, "dur":48746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256460192, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256461382, "dur":109762, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256461362, "dur":109784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256571171, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256572274, "dur":101244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256572257, "dur":101263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256673547, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256674600, "dur":42659, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256674583, "dur":42678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256717291, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256718440, "dur":54190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256718422, "dur":54210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256772685, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256773895, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256774975, "dur":46460, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256774892, "dur":46545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256821465, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256822839, "dur":38231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256822818, "dur":38254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256861103, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256862477, "dur":150563, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897256862461, "dur":150581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257013073, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257014510, "dur":47815, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257014489, "dur":47838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257062339, "dur":128, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897257064080, "dur":130, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897257062472, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257064304, "dur":220913, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257064272, "dur":220952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257285255, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257286844, "dur":41747, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257286814, "dur":41779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257328606, "dur":133, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897257330340, "dur":101, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897257328745, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257330465, "dur":1388, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257330461, "dur":1394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257331887, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257333244, "dur":115175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257333229, "dur":115192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257448451, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257450127, "dur":307947, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257450112, "dur":307964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257758106, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257759812, "dur":103049, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257759753, "dur":103110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257862873, "dur":172, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897257864715, "dur":119, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897257863050, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257864919, "dur":39600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257864880, "dur":39641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257904537, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897257904601, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257905708, "dur":101430, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897257905705, "dur":101434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258007171, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258008473, "dur":139949, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258008450, "dur":139974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258150197, "dur":133, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897258148455, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258150408, "dur":49829, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258150380, "dur":49859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258200250, "dur":164, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897258200418, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258201748, "dur":30779, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258201745, "dur":30784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258233641, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748897258232558, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258233780, "dur":33247, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258233759, "dur":33270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258267058, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Mygame/3D Casual Puzzle Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748897258267888, "dur":4577833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748897262853654, "dur":2707, "ph":"X", "name": "ProfilerWriteOutput" }
+,
